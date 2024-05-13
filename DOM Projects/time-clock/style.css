@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: rgb(6, 80, 133);
+    width: 400px;
+    color: #fff;
+    height: 230px;
+}
+
+#header {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+#authorBox {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#text {
+    color: rgb(249, 217, 8);
+}
+
+#name {
+    color: rgb(3, 252, 3);
+}
+
+#timeWrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    text-align: center;
+}
+
+.timeBox {
+    background-color: rgb(255, 154, 3);
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+#timeWrapper > .timeBox > p {
+    color: black;
+}
+
+#dateBox {
+    
+    font-size: 18px;
+    text-align: center;
+}
