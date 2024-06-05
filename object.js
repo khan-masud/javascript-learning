@@ -9,7 +9,7 @@
     fatherName : 'Wahedul Islam',
     DOB : '10/07/2004',
     age : 21, // Store integer
-    heartName : 'Moriom Nesa Labonna',
+    heartName : 'Not available yet.',
     ourDreams : ['Bari', 'Gari', 'Baby', 'Misti Songsar'], // Store an array
 }
 
@@ -29,8 +29,8 @@ var academicResult = [ // Created an array
                         batch : "Day-93",
             },
             specialObject2 = { // Object 2
-                        name : "Moriom Nesa Labonna",
-                        roll : 38,
+                        name : "Name Hidden By Masud",
+                        roll : 69,
                         batch : "Day-93",
             }
         ]
