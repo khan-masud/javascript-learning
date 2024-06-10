@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Country Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="formContent">
+            <center><h1 id="heading">Get Country Information</h1></center>
+            <form action="" id="form">
+                <input type="text" name="countryName" placeholder="Enter Country Name...">
+                <button type="submit" id="searchBtn" value="Search">Search</button>
+            </form>
+        </div>
+    </div>
+
+   <center> <div id="wrapper"></div></center>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalCountryName"></h2>
+            <img id="modalCountryFlag" src="" alt="Country Flag" class="countryImage" style="width: 300px; height: 150px; padding: 10px">
+            <p><strong>Country Code:</strong> <span id="modalCountryCode"></span></p>
+            <p><strong>Capital:</strong> <span id="modalCountryCapital"></span></p>
+            <p><strong>Population:</strong> <span id="modalCountryPopulation"></span></p>
+            <p><strong>Region:</strong> <span id="modalCountryRegion"></span></p>
+            <p><strong>Timezones:</strong> <span id="modalCountryTimezones"></span></p>
+        </div>
+    </div>
+
+    <script src="module.js"></script>
+</body>
+</html>
