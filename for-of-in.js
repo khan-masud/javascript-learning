@@ -26,6 +26,10 @@ for (let number of numbers)
     console.log(number);
 }
 
+// Method 3 - Shortcut method
+
+console.log(...numbers);
+
 
 // To access the object we can use normal method of object.
 
