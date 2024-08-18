@@ -26,3 +26,11 @@ bitByters[0] = bitByters[bitByters.length - 1];
 bitByters[bitByters.length - 1] = temp2;
 
 console.log("After Swapping First and Last Element : " + bitByters);
+
+// Lets try something crazy
+
+var array1 = [10, 20, 30, 40];
+console.log(...array1); // It will show the all elements or array1
+
+var array2 = [...array1, 50, 60, 70, 80, 90]; // It will be added the elements of array1 to array2.
+console.log(array2);
