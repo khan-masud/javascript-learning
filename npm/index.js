@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (request, response)=> {
-    response.send('This is Masud.');
+app.get('/', (req, res)=> {
+    res.send('This is Masud.');
 })
 
 app.listen(1000, ()=> { // 1000 is port number. If you change this port, you have to restart the server.
